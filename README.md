@@ -18,5 +18,4 @@ Validation form
 Sorted / filtered users
 
 
-![](https://media.giphy.com/media/vVnSReS1y3xsuRdmG0/giphy.gif)
 <img src="https://media.giphy.com/media/vVnSReS1y3xsuRdmG0/giphy.gif" data-canonical-src="https://media.giphy.com/media/vVnSReS1y3xsuRdmG0/giphy.gif" width="500">
