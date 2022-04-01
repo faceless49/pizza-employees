@@ -19,3 +19,6 @@ Launches the test runner in the interactive watch mode.
 ## Functional
 Validation form
 Sorted / filtered users
+
+
+<img src="https://media.giphy.com/media/vVnSReS1y3xsuRdmG0/giphy.gif" data-canonical-src="https://media.giphy.com/media/vVnSReS1y3xsuRdmG0/giphy.gif" width="500">
