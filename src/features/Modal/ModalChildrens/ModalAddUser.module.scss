@@ -1,0 +1,42 @@
+@import "src/sass/vars";
+.modal {
+  &_input {
+    align-items: center;
+    background: #ececf9;
+    border: 1px solid #635d80;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #2d2e46;
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  &_cancel {
+    background: $invalidColor;
+    padding: 5px 15px;
+    color: $buttonFontColor;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &_submit {
+    @extend .modal_cancel;
+    background: $buttonColor;
+  }
+
+  &_btn_wrap {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
+}
+
+.error {
+  color: $invalidColor;
+  font-size: 11px;
+}
+

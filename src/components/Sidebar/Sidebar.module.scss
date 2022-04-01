@@ -1,0 +1,20 @@
+@import '../../sass/vars';
+@import '../../sass/mixins';
+
+.sidebar {
+  background: $bgcSidebar;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @media (max-width: 567.98px) {
+    gap: 5px
+  }
+
+  &_label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

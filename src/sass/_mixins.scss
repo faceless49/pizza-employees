@@ -1,0 +1,21 @@
+@import "vars";
+
+@mixin flex($justify: stretch, $align: normal) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin hoverBtn {
+  &:hover {
+    background-color: $hoverBtnColor;
+    transition: background-color ease 0.3s;
+  }
+}
+
+@mixin hoverLinks {
+  &:hover {
+    color: $hoverLinks;
+    transition: color ease 0.4s;
+  }
+}

@@ -1,0 +1,70 @@
+
+@import "src/sass/vars";
+
+.profile {
+  padding: 13px 60px 0 35px;
+
+  &_title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
+  &_header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &_main {
+    padding: 20px 12px;
+    background: #FFFFFF;
+    border: 1px solid $userBgColor;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &_input {
+    padding: 5px 10px;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    &:invalid {
+      border: 1px solid #D91313;
+    }
+
+    &_submit {
+      padding: 5px;
+      color: $buttonFontColor;
+      background: $bgcSubmit;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:disabled {
+        background: gray;
+      }
+    }
+  }
+
+
+  &_label {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+
+  &_comment {
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
+
+.error {
+  color: red;
+}
